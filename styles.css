@@ -1,0 +1,87 @@
+body {
+  background-color: #121212;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  border: 2px solid #444;
+  border-radius: 15px;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.title {
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #00ffd5;
+}
+
+.buttons {
+  margin-bottom: 30px;
+}
+
+.play-button {
+  background-color: transparent;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  height: 120px;
+  border-radius: 12px;
+  border: 2px solid #333;
+}
+
+.result {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #ffcc00;
+}
+
+.moves {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.moves img {
+  height: 60px;
+  margin: 0 10px;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ccc;
+}
+
+.reset-button {
+  margin-top: 30px;
+  background-color: #00ffd5;
+  color: #121212;
+  border: none;
+  font-size: 20px;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+  background-color: #00c8a5;
+}
